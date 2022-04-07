@@ -17,7 +17,7 @@ class RoliaSearch(unittest.TestCase):
         self.previous_page = None
         self.current_page_element_dict = {}
         
-####### fill in credential information format like ('user id', 'password'): True), "True "means it is positive test scenaio
+####### fill in credential information format like {('user id', 'password'): True}, "True "means it is positive test scenaio
         self.sign_in_credential_and_expected_result = {}
 
     def test_search_in_rolia_with_action_builder(self):
