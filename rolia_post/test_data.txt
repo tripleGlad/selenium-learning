@@ -1,0 +1,8 @@
+#Sign in credential and expected result# {('userid', 'password'): False, ('userid', 'pass'): False, ('id', 'password'): False}
+
+#Search content and expected result# {'~':False, '车险':True}
+
+#Post content and expected result# {(u'成功发帖，能赚💰💰💰么？', u'洗洗早点睡，梦里什么都有。😂😂🤣😂😂'):True, ('取消按键🗙 - 测试主题', '取消按键🗙 - 测试内容'):False}
+
+
+#Post sign in credential# {('userid', 'password'): False}
